@@ -27,7 +27,8 @@ public class Card {
 		return this.suit;
         }
         
-        public Joker (Joker j)
+        public Joker getJoker ()
         {
-            
+            return this.joker;
         }
+}
